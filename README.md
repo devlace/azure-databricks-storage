@@ -13,6 +13,7 @@ To download all sample notebooks, [here](notebooks/connect_storage.dbc) is the D
 |   |   |OAuth via Service Principal (SP)|**SP has correct RBAC role assigned OR ACLs permissions to files/folders in ADLS Gen2|[Python](notebooks/mount_oauthsp_py.py)| [ADLS Gen2](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-datalake-gen2.html#mount-an-adls-filesystem-to-dbfs-using-a-service-principal-and-oauth-2-0)|
 |---|---|---|---|---|---|
 
+
 **This will depend on where Spark Configuration is set. This is typically set on the SparkSession of the running notebook and therefore scoped to only that SparkSession. *
 
 ****IMPORTANT NOTE on Authorization requirements** 
