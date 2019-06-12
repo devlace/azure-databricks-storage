@@ -3,6 +3,7 @@
 The following is a summary of the various ways to connect to [Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview) and [Azure Data Lake Gen2](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) from [Azure Databricks](https://docs.azuredatabricks.net/index.html).
 
 To download all sample notebooks, [here](notebooks/connect_storage.dbc) is the DBC archive you can import to your workspace. 
+
 |How to connect|Scope of connection|Authentication|Authorization Requirements|Code Sample|Docs/Supported Storage|
 |---|---|---|---|---|---|
 |**Direct connect**|Typicaly SparkSession*|Storage Key|All rights|[Python](notebooks/directconnect_storagekey_py.py), [SQL](notebooks/directconnect_storagekey_sql.sql)|[Blob](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-storage.html#access-azure-blob-storage-directly)|
