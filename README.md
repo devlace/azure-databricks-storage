@@ -14,11 +14,11 @@ To download all sample notebooks, [here](notebooks/connect_storage.dbc) is the D
 |---|---|---|---|---|---|
 
 
-**This will depend on where Spark Configuration is set. This is typically set on the SparkSession of the running notebook and therefore scoped to only that SparkSession. *
+**This will depend on where Spark Configuration is set. This is typically set on the SparkSession of the running notebook and therefore scoped to only that SparkSession.*
 
 ****IMPORTANT NOTE on Authorization requirements** 
 
-You need to assigned specifically either of the following RBAC roles to the Service Principal or User. See [here](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-rbac-portal) for more information. 
+You need to assign specifically either of the following RBAC roles to the Service Principal or User. See [here](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-rbac-portal) for more information. 
 - Storage Blob Data Owner
 - Storage Blob Data Contributor
 - Storage Blob Data Reader
